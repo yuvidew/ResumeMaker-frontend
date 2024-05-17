@@ -1,0 +1,23 @@
+.theSectionBox{
+    height: 100vh;
+    width: 99.1%;
+    background: #e7e4e4a7;
+}
+
+.theBtnBox{
+    width: 20rem;
+}
+.btnStyle{
+    background: #3f1cbd !important;
+    color: aliceblue;
+}
+
+
+.InputBorder{
+    border: .1px solid #3f1cbd;
+    color: #141414db;
+}
+
+.theFormsSection form{
+    width: 100% !important;
+}

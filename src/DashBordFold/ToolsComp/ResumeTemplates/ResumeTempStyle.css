@@ -1,0 +1,36 @@
+.theTempBox{
+    width: 60%;
+}
+
+.theResumeCard{
+    border: 1px solid #5555; 
+    width: 95%;
+    height: 95%;
+    margin: 2rem 0;
+}
+
+.theResumeCard p {
+    font-size: 1.2rem !important;
+}
+
+.thePicImg{
+    height: 20rem;
+}
+
+.thePic{
+    width: 13rem;
+    height: 13rem;
+}
+
+.thePicImg h1{
+    font-size: 4rem;
+}
+
+.workExp h1{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.rightBorder{
+    border-right: 1px solid #888;
+}

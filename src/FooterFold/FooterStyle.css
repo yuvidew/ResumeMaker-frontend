@@ -1,0 +1,23 @@
+footer{
+    background-color: #0979db;
+    /* height: 30rem; */
+    color: aliceblue;
+}
+
+.line{
+    height: .2rem;
+    background-color: #f0f8ff8e;
+}
+
+.ulList{
+    line-height: 5rem;
+}
+
+.IconColor{
+    color: #4e4d4d;
+}
+
+.borderRightLine{
+    border-right:3px solid aliceblue ;
+    padding-right: 1rem;
+}

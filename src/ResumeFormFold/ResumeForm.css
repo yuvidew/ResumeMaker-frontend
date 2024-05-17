@@ -1,0 +1,29 @@
+.section{
+    border: .1px solid rgb(204, 195, 195) !important;
+}
+
+form .theLabel{
+    font-size: 2rem;
+
+}
+
+form .theCircular{
+    width: 1rem;
+    color: aliceblue;
+}
+
+form .theUploadBtn{
+    font-size: 1.4rem;
+    width: 10rem;
+}
+
+.theUploaderBox{
+    padding: .1rem 1rem;
+    border: .1px solid rgb(204, 195, 195) !important;
+}
+
+.submitBtn{
+    margin-top: 1rem;
+    width: 10rem;
+    background: #3f1cbd !important;
+}

@@ -1,0 +1,21 @@
+section.loginForm{
+    height: 80vh;
+    width: 100%;
+}
+
+.theLoginFromCard{
+    width: 60%;
+    height: 50rem;
+    padding: 2rem;
+}
+
+.theLoginFromCard input{
+    font-size: 1.3rem;
+    padding: 1rem ;
+    border: .1px solid rgb(125, 124, 124);
+}
+
+.theLoginFromCard label{
+    font-size: 1.5rem;
+}
+

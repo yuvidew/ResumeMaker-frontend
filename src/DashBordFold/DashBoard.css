@@ -1,0 +1,129 @@
+.theSectionBox{
+    height: 90vh;
+    width: 99.1%;
+    background: #e7e4e4a7;
+}
+
+.theRow{
+    width: 90%;
+}
+
+.createBlogBtn{
+    height: 30rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.plusImg{
+    width: 5rem;
+}
+
+.logo{
+    width: 4.5rem;
+}
+
+.theSearchBox{
+    width: 35rem;
+    height: 4rem;
+    border: .1px solid #3f1cbd;
+}
+
+.theSearchBox .theInput{
+    padding: 0 1rem;
+    font-size: 1.3rem;
+}
+
+.theBTn{
+    width: 10rem;
+    background: #3f1cbd;
+    font-size: 1.3rem;
+    color: aliceblue;
+}
+
+.theIconUser{
+    font-size: 3rem !important;
+}
+
+.theUserName{
+    font-size: 1.7rem;
+    color: #000000a7;
+}
+
+.textCont{
+    background-color: #ffffff8f
+}
+
+.imgCont img{
+    width: 4rem;
+}
+
+.theNewREsume{
+    top: 0;
+    left: 0;
+    position: fixed;
+    background-color: #00000066;
+}
+
+.theBntCol{
+    background: #3f1cbd;
+    color: #fff;
+}
+
+.theCard{
+    width: 40rem;
+}
+
+.theHead{
+    background-color: #0979db;
+}
+
+.inpBtn{
+    border: .1px solid #00000055;
+}
+
+.headerTop{
+    height: 8rem;
+}
+
+.theCont{
+    background: #fff;
+}
+
+.theSlideBar{
+    height: 98%;
+    position: relative;
+}
+
+.theHomeDashBoard{
+    height: 95%;
+    width: 95%;
+    background-color: #fff;
+}
+
+.theBtnBoxSub{
+    background: #3f1cbd !important;
+    width: 15rem !important;
+    border: none !important;
+}
+
+.theCreateLetter{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: #00000083;
+}
+
+.thePopupCard{
+    width: 50rem;
+    height: 25%;
+}
+
+.thePopupCard input{
+    border: .1px solid rgba(47, 46, 46, 0.736);
+}
+
+.theHeader{
+    background: #3f1cbd;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
