@@ -37,7 +37,7 @@ const EductionComp = ({ur}) => {
     err , 
     isPost , 
     handelPostData
-  } = usePostApiData(`http://localhost:2000/api/post/resume-eduction/${id}`)
+  } = usePostApiData(`https://resumemekar.onrender.com/api/post/resume-eduction/${id}`)
   
 
   const handleChange = (inpD) => {

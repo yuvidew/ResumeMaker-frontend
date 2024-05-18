@@ -8,7 +8,7 @@ const SkillsComp = ({ur}) => {
     const [skill , setSkill] = useState('')
     const id = JSON.parse(localStorage.getItem('resume-id'))
     const history = useNavigate()
-    const {err , isPost , handelPostData} = usePostApiData(`http://localhost:2000/api/post/resume-skills/${id}`)
+    const {err , isPost , handelPostData} = usePostApiData(`https://resumemekar.onrender.com/api/post/resume-skills/${id}`)
 
 
     const handleSubmit = (e) => {

@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { Button, Card } from 'react-bootstrap'
 
 const CreateResumName = ({isTrue , setIsTrue}) => {
-    const {isPost , handelPostData} = usePostApiData(`/api/post/resume/createNewResume`)
+    const {isPost , handelPostData} = usePostApiData(`https://resumemekar.onrender.com/api/post/resume/createNewResume`)
     const [input , setInput] = useState('')
     const history = useNavigate()
 

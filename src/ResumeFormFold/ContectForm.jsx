@@ -40,7 +40,7 @@ const ContactForm = ({text , ur}) => {
     const id = JSON.parse(localStorage.getItem('resume-id'))
     console.log(id);
 
-    const {err , isPost , handelPostData} = usePostApiData(`/api/post/resume/continfo/${id}`)
+    const {err , isPost , handelPostData} = usePostApiData(`https://resumemekar.onrender.com/api/post/resume/continfo/${id}`)
 
 
     const handleChange = (inD) => {

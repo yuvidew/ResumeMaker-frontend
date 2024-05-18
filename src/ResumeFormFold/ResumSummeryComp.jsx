@@ -5,7 +5,7 @@ import usePostApiData from '../UseCoustumHook/usePostApiData'
 const ResumSummeryComp = ({ur}) => {
     const [val , setVal] = useState('')
     const id = JSON.parse(localStorage.getItem('resume-id'))
-    const {err , isPost , handelPostData} = usePostApiData(`/api/post/resume-summary/${id}`)
+    const {err , isPost , handelPostData} = usePostApiData(`https://resumemekar.onrender.com/api/post/resume-summary/${id}`)
     const history = useNavigate()
     const exmpleList = [
         {

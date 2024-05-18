@@ -31,7 +31,7 @@ const formats = [
 const LetterDesComp = () => {
   const [des , setDes] = useState('')
   const id = JSON.parse(localStorage.getItem('letter-id'))
-  const [err , isPost , handelPostData] = usePostLetterData(`/api/post/letter/addLetterDesInfo/${id}`)
+  const [err , isPost , handelPostData] = usePostLetterData(`https://resumemekar.onrender.com/api/post/letter/addLetterDesInfo/${id}`)
   const history = useNavigate()
 
   const handelSubmit = (e) => {

@@ -6,7 +6,7 @@ const ObjectiveComp = ({ur}) => {
     const [val , setVal] = useState('')
     const history = useNavigate()
     const id = JSON.parse(localStorage.getItem('resume-id'))
-    const {err , isPost , handelPostData} = usePostApiData(`http://localhost:2000/api/post/resume-Objective/${id}`)
+    const {err , isPost , handelPostData} = usePostApiData(`https://resumemekar.onrender.com/api/post/resume-Objective/${id}`)
 
     const exmpleList = [
         {

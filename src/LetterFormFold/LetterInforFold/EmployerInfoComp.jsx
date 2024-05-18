@@ -7,7 +7,7 @@ import { useNavigate } from 'react-router-dom';
 const EmployerInfoComp = ({urlText}) => {
     const { register, handleSubmit } = useForm();
     const id = JSON.parse(localStorage.getItem('letter-id'))
-    const [err , isPost , handelPostData] = usePostLetterData(`/api/post/letter/addEmployerInfo/${id}`)
+    const [err , isPost , handelPostData] = usePostLetterData(`https://resumemekar.onrender.com/api/post/letter/addEmployerInfo/${id}`)
     const history = useNavigate()
 
     const onSubmit = (data) => {

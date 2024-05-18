@@ -3,7 +3,7 @@ import './App.css'
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import LoaderComp from './LoaderFold/LoaderComp'
-const TheResume = lazy(() => import('./TheResume/TheResume'))
+// const TheResume = lazy(() => import('./TheResume/TheResume'))
 const ResumeFromComp =  lazy(() => import('./ResumeFormFold/ResumeFromComp'))
 const LetterCreateForm =  lazy(() => import('./LetterFormFold/LetterCreateForm'))
 const AllTools  = lazy(() => import('./DashBordFold/AllTools'))
@@ -23,7 +23,7 @@ const App = () => {
                 <Route index element ={<DashBoard/>} />
                 <Route path=':slug' element = {<AllTools/>} />
               </Route>
-              <Route path='/dashboard/resume/:id' element = {<TheResume/>} />
+              {/* <Route path='/dashboard/resume/:id' element = {<TheResume/>} /> */}
               <Route path='/dashboard/resume-form' element = {<ResumeFromComp/>} />
               <Route path='/dashboard/letter-form' element = {<LetterCreateForm/>} />
               {/* <Route path='/resume' element = {<ResumeTempComp/>} /> */}

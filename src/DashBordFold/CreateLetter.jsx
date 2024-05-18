@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom';
 const CreateLetter = ({isTrue , setIsTrue}) => {
     const [input , setInput] = useState('')
     const id = JSON.parse(localStorage.getItem('resMakUser'))
-    const {isPost , handelPostData} = usePostApiData('http://localhost:2000/api/post/letter')
+    const {isPost , handelPostData} = usePostApiData('https://resumemekar.onrender.com/api/post/letter')
     const history = useNavigate()
     const handelFormSubmit = (e) => {
         e.preventDefault()

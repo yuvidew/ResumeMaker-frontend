@@ -19,7 +19,7 @@ const Resume = () => {
     const [isTrue , setIsTrue] = useState(false)
     const [query , handleQue , showHide , setShowHide] = useSearchParamsHook()
     const [deleteResume] = useDeleteHook()
-    const {err , data} = useFetch('/api/get/resumes')
+    const {err , data} = useFetch('https://resumemekar.onrender.com/api/get/resumes')
     const Resume = data.filter(ele => ele._id == query)
 
 
@@ -49,8 +49,7 @@ const Resume = () => {
                         </div>
                     </div>
                     {
-                        !err &&
-                        data.map((ele) => (
+                        data.length != 0  ? data.map((ele) => (
                             <div key = {ele._id}  className=" mt-5  col-lg-3 col-md-4 col-12 theCreateResumeCard " >
                                 <Card key = {ele._id} className='h-100 p-0 m-0 w-100 theResumeCard'>
                                     <Card.Body className='h-100 p-0'>
@@ -64,7 +63,7 @@ const Resume = () => {
                                             <Button variant='light'>
                                                 <EditNoteIcon style={fontSize}/>
                                             </Button>
-                                            <Button variant='light' onClick={() => deleteResume(`/api/delete/resume/${ele._id}`)}>
+                                            <Button variant='light' onClick={() => deleteResume(`https://resumemekar.onrender.com/api/get/resumes/api/delete/resume/${ele._id}`)}>
                                                 <DeleteIcon style={fontSize}/>
                                             </Button>
                                             <Button variant='light' onClick={() => handleQue(ele._id)}>
@@ -74,7 +73,9 @@ const Resume = () => {
                                     </div>
                                 </Card>
                             </div>
-                        ))
+                        )) : (
+                            <h1>Loading...</h1>
+                        )
                     }
                 </div>
             </section>

@@ -33,7 +33,7 @@ const WorkExpComp = ({ur}) => {
   const [isTrue , setIsTrue] = useState(false)
   const id = JSON.parse(localStorage.getItem('resume-id'))
   const history = useNavigate()
-  const {err , isPost , handelPostData} = usePostApiData(`http://localhost:2000/api/post/resume-workexp/${id}`)
+  const {err , isPost , handelPostData} = usePostApiData(`https://resumemekar.onrender.com/api/post/resume-workexp/${id}`)
 
 
   const handleChange = (inpD) => {

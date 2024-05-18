@@ -18,7 +18,7 @@ const fontSize = {
 
 const MyCoverLetter = () => {
     const [isTrue , setIsTrue] = useState(false)
-    const {err , data} = useFetch('/api/get/all/letters')
+    const {err , data} = useFetch('https://resumemekar.onrender.com/api/get/resumes/api/get/all/letters')
     const [query , handleQue , showHide , setShowHide] = useSearchParamsHook()
     const [deleteResume] = useDeleteHook()
     const Letter = data.filter(ele => ele._id == query)

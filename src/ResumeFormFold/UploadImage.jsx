@@ -11,7 +11,7 @@ const UploadImage = () => {
     const [imgUrl , handelImgUploader , isTrue] = useImgUploader()
     const id = JSON.parse(localStorage.getItem('resume-id'))
     console.log(imgUrl);
-    const {isPost , handelPostData} = usePostApiData(`/api/post/resume-uploadimage/${id}`)
+    const {isPost , handelPostData} = usePostApiData(`https://resumemekar.onrender.com/api/post/resume-uploadimage/${id}`)
     const handleSubmit = (e) => {
         e.preventDefault()
         const objData = {

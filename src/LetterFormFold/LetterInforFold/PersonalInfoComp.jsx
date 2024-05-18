@@ -8,7 +8,7 @@ const PersonalInfoComp = ({urlText}) => {
     const { register, handleSubmit, formState: { errors } } = useForm();
     const id = JSON.parse(localStorage.getItem('letter-id'))
     console.log(id);
-    const [err , isPost , handelPostData] = usePostLetterData(`/api/post/letter/addPersonalInfo/${id}`)
+    const [err , isPost , handelPostData] = usePostLetterData(`https://resumemekar.onrender.com/api/post/letter/addPersonalInfo/${id}`)
     const history = useNavigate()
 
     const onSubmit = (data) => {
